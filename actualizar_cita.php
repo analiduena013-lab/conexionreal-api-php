@@ -14,7 +14,7 @@ $fecha = $datos["fecha"];
 $hora = $datos["hora"];
 
 // Actualizar la cita
-$sql = "UPDATE citas SET
+$sql = "UPDATE cita SET
         paciente='$paciente',
         medico='$medico',
         fecha='$fecha',

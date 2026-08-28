@@ -5,7 +5,7 @@
 $host = "localhost";
 $usuario = "root";
 $contrasena = "anclalia1524";
-$baseDatos = "conexionreal_php";
+$baseDatos = "conexionreal";
 
 // Crear la conexión
 $conn = new mysqli($host, $usuario, $contrasena, $baseDatos);

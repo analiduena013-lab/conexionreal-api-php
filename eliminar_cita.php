@@ -14,7 +14,7 @@ if (!isset($_GET['id'])) {
 $id = $_GET['id'];
 
 // Eliminar la cita
-$sql = "DELETE FROM citas WHERE id = $id";
+$sql = "DELETE FROM cita WHERE id = $id";
 
 // Verificar el resultado
 if ($conn->query($sql) === TRUE) {

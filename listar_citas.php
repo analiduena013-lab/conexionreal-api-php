@@ -4,7 +4,7 @@
 include("conexion.php");
 
 // Consultar todas las citas
-$sql = "SELECT * FROM citas";
+$sql = "SELECT * FROM cita";
 
 $resultado = $conn->query($sql);
 

@@ -12,7 +12,7 @@ if (!isset($_GET['id'])) {
 $id = $_GET['id'];
 
 // Buscar la cita
-$sql = "SELECT * FROM citas WHERE id = $id";
+$sql = "SELECT * FROM cita WHERE id = $id";
 
 $resultado = $conn->query($sql);
 
